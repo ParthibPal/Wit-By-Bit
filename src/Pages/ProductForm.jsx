@@ -74,7 +74,7 @@ const ProductForm = () => {
                 </div>
             </form>
             <div className="firstForm">
-                <button className='formCancel' onClick={() => navigate('/product')}>Cancel</button>
+                <button className='formCancel' onClick={() => navigate('/')}>Cancel</button>
                 <button className='formNext' onClick={() => navigate('/productform2',{ state: { activeItem: 'Variants' } })}>Next</button>
             </div>
            
