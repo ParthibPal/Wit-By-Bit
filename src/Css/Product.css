@@ -1,0 +1,111 @@
+body, html {
+  margin-top: -1vh;
+  padding: 0;
+}
+.productNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .productLogo h2 {
+    margin-left: 5vh;
+  }
+  
+  .addCategory {
+    display: flex;
+    gap: 10px; /* Adds space between the buttons */
+  }
+  
+  .addCategory button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+
+  .addCategoryBtn{
+    background-color: rgb(227, 240, 252);
+    color: #07c;
+  }
+
+  .addProductBtn{
+    background-color: #07c;
+    color: white;
+  }
+
+  .items{
+    display: flex;
+    margin-left: 8vh;
+    gap: 10px;
+    
+  }
+
+  .shoes{
+    width: 30vh;
+    height: 80vh;
+    background-color: rgb(239, 242, 242);
+    border-radius: 10px;
+  }
+  .shoes h3{
+    margin-left: 1vh;
+  }
+
+
+  .T-shirt{
+    width: 30vh;
+    height: auto;
+    background-color: rgb(239, 242, 242);
+    border-radius: 10px;
+  }
+  .T-shirt h3{
+    margin-left: 1vh;
+  }
+
+  .productGrid{
+    width: 92%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: white;
+    margin: 10px;
+    border-radius: 8px;
+  }
+
+  .productImg img{
+    width: 8vh;
+    margin: 1vh;
+    border-radius: 8px;
+  }
+
+  .productDetails{
+    margin: 0;
+    padding: 0;
+    row-gap: 0;    
+  }
+
+  .productDetails h4 {
+    margin-right: 5vh;
+    margin-top: 1.4vh;
+    font-size: 16px;
+  }
+  
+  .productDetails p {
+    margin-top: -1.7vh;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .productDetails label {
+    font-size: 12px;
+    color: #777;
+    position: relative;
+    top: -8px;
+    background-color: rgb(227, 240, 252);
+    color: #0056b3;
+    padding: 3px 8px;
+    border-radius: 5px;
+  }

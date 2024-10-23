@@ -1,0 +1,129 @@
+.form2Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 40px auto;
+    width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.form2Container h3 {
+    align-self: flex-start; 
+    margin: 20px 0; 
+    text-align: left; 
+}
+
+
+
+.form2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.form2Values {
+    flex: 1;
+    margin-left: -2vh;
+    margin-right: 2vh;
+}
+.form2Options input{
+    width: 60%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form2Values input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.addOptions {
+    align-self: flex-start;
+    margin-top: 10px;
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.form2Del img{
+    width: 2.2vh;
+    height: auto;
+    margin-right: -2px;
+    margin-left: 5px;
+}
+
+.img1{
+    margin-top: 6.4vh;
+
+}
+.img2{
+    margin-top: 2.8vh;
+
+}
+.img3{
+    margin-top: 2.7vh;
+
+}
+
+.secondForm {
+    width: 58vh;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.form2Cancel {
+    margin-left: 67%;
+    background-color: rgb(227, 240, 252);
+    border: none;
+    color: #07c;
+    width: 7vh;
+    height: 3vh;
+    border-radius: 5px;
+    margin-right: 2.5vh;
+    cursor: pointer;
+}
+
+.form2Next {
+    background-color: #07c;
+    border: none;
+    color: rgb(227, 240, 252);
+    width: 7vh;
+    height: 3vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Styling for the value input container */
+.valueContainer {
+    position: relative; /* Needed for the cross icon positioning */
+    display: flex;
+    align-items: center;
+}
+
+/* Highlight background for preset values */
+.highlight {
+    background-color: #f0f8ff; /* Light highlight color */
+    padding-right: 20px; /* Give space for the delete icon */
+}
+
+/* Styling for the delete icon */
+.deleteIcon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: red; /* Color for the delete icon */
+    font-weight: bold;
+    font-size: 16px;
+}

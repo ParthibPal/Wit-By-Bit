@@ -1,0 +1,109 @@
+.formContainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; 
+    
+    width: 50%; 
+    max-width: 450px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    
+}
+
+.priceInfo {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.priceBox {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -2vh;
+}
+
+.priceField, .discountField {
+    display: flex;
+    flex-direction: column;
+    margin-top: -1vh;
+}
+
+.priceField label, .discountField label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.currencySymbol {
+    position: absolute;
+    left: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+input[type="number"] {
+    padding: 10px 10px 10px 30px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; 
+}
+
+#discountInput {
+    width: 72%; 
+}
+
+
+.discountOptions {
+    display: flex;
+    margin-left: 10px;
+}
+
+.discountBtn {
+    padding: 10px;
+    border: 1px solid #ccc;
+ 
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.discountBtn:hover {
+    background-color: #e0e0e0;
+}
+.form4Cancel {
+    margin-left: 67%;
+    background-color: rgb(227, 240, 252);
+    border: none;
+    color: #07c;
+    width: 7vh;
+    height: 3vh;
+    border-radius: 5px;
+    margin-right: 2.5vh;
+    cursor: pointer;
+}
+
+.form4Next {
+    background-color: #07c;
+    border: none;
+    color: rgb(227, 240, 252);
+    width: 7vh;
+    height: 3vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fourthForm {
+    width: 50vh;
+    align-items: center;
+    margin: auto;
+    
+}

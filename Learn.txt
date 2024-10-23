@@ -1,0 +1,3 @@
+1. Installing Vite: npm install vite
+2. Create Vite App: npm create vite@latest
+3. For Browser Router: npm install react-router-dom

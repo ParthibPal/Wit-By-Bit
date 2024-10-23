@@ -1,0 +1,35 @@
+.sideNavImg {
+    width: 12vh;
+    height: 5vh;
+    align-self: flex-start; /* Aligns the image to the left */
+    margin-right: -13vh;
+    margin-left: 2vh;
+    margin-top: 5vh;
+    object-fit: cover;
+}
+
+.sideNav {
+    margin-top: 14vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    /* outline: 1px solid #141415; */
+    border-radius: 8px;
+    z-index: 1;
+    width: 17vh;
+    height: 75%;
+    align-items: flex-start; /* Aligns all items, including the image, to the left */
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-left: -2.4vh;
+}
+
+.option input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+
